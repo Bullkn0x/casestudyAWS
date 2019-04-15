@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+		 http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+<servlet>
+	<servlet-name>TotalByZip</servlet-name>
+	<servlet-class>creditcardwebapp.byzip</servlet-class>
+</servlet>
+
+
+<servlet-mapping>
+	<servlet-name>TotalByZip</servlet-name>
+	<url-pattern>/byzip.jsp</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<servlet-name>TotalByType</servlet-name>
+	<servlet-class>creditcardwebapp.bytype</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>TotalByType</servlet-name>
+	<url-pattern>/bytype.jsp</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>totalBetweenDates</servlet-name>
+	<servlet-class>creditcardwebapp.transactionbetweendates</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>totalBetweenDates</servlet-name>
+	<url-pattern>/transactionbetweendates</url-pattern>
+</servlet-mapping>
+</web-app>

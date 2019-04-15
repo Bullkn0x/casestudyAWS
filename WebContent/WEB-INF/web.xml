@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <servlet>
+    <servlet-name>TotalByZip</servlet-name>
+    <servlet-class>creditcardwebapp.byzip</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TotalByZip</servlet-name>
+    <url-pattern>/transactionbyzip</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>TotalByType</servlet-name>
+    <servlet-class>creditcardwebapp.bytype</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TotalByType</servlet-name>
+    <url-pattern>/transactionbytype</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>totalBetweenDates</servlet-name>
+    <servlet-class>creditcardwebapp.transactionbetweendates</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>totalBetweenDates</servlet-name>
+    <url-pattern>/transactionbetweendates</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>TotalByBranch</servlet-name>
+    <servlet-class>creditcardwebapp.bybranch</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TotalByBranch</servlet-name>
+    <url-pattern>/transactionbybranch</url-pattern>
+  </servlet-mapping>
+</web-app>

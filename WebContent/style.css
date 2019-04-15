@@ -1,0 +1,122 @@
+.test{
+	color:white;
+}
+.transaction{
+	padding-bottom: 10%;
+}
+
+.wrapper{	
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+}
+
+.form {
+	color:white;
+	padding-left: 3%;
+	padding-top: 9px;
+	    
+}
+p.header {
+	font-size:36px;
+	text-align: center;
+}
+datalist[]
+{
+  background: red;
+}
+html {
+	background:linear-gradient(120deg, #000000, #6161ab) no-repeat center center fixed;
+	font-family: 'Orbitron', sans-serif;
+	
+}
+
+.calendar,
+.calendar select,
+.calendar table,
+.calendar td,
+.calendar th {
+	background: #fff;
+	color: #000;
+	text-shadow: none;
+	height: auto;
+	width: auto;
+	padding: 0;
+	line-height: normal;
+	border: 0;
+	box-shadow: none;
+	border-radius: 0;
+}
+
+p, h3 {
+	color: #e6dddd;
+}
+.calendar {
+	position: absolute;
+	border: 1px solid #c0c0c0;
+	text-align: center;
+}
+
+.calendar select {
+	margin: 3px 5px;
+	border: 1px solid #c0c0c0;
+}
+
+.calendar td,
+.calendar th {
+	width: 14%;
+	padding: 4px;
+	text-align: center;
+}
+
+.calendar td {
+	cursor: pointer;
+}
+
+.calendar .selected {
+	font-weight: bold;
+}
+
+label {
+	display:block;
+}
+
+input, button {
+  padding: 5px 14px;
+}
+input {
+	background: rgba(255,255,255,0.1);
+	border: none;
+	border-radius: 20px;
+  	padding-left: 10px;
+  	color:white;
+  
+}
+input[type=date]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    display: none;
+}
+input[type=month]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    display: none;
+}
+::-webkit-calendar-picker-indicator { background: transparent; }
+::placeholder{
+	color:whitesmoke;
+	opacity: 0.4;
+}
+.submit {
+	background-color:#6666FF;
+	opacity: 1;
+	font-family: 'Orbitron', sans-serif;
+	padding-top: 6.5px;
+}
+
+input:invalid+span:after {
+  content: '✖';
+  padding-left: 5px;
+}
+
+input:valid+span:after {
+  content: '✓';
+  padding-left: 5px;
+}
